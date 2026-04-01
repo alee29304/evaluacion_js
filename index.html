@@ -20,7 +20,7 @@
                 <h5 class="card-title">Ejercicio 1</h5>
                 <p class="card-text"> Módulo de Tesorería: Pago de Permisos (Cálculos y Retorno)</p>
                 <input type="text" class="form-control mb-3" id="input1" placeholder="...">
-                <a href="#" class="btn btn-primary" onclick="registroPagos()">Ejecutar</a>
+                <a href="#" class="btn btn-primary" onclick="registroPagos()">Calcular</a>
                 <div id="container1" class="d-none">
                     <h5>Resultado:</h5>
                     <div id="resultado1" class="alert alert-success fw-bold">
@@ -35,10 +35,17 @@
                 <h5 class="card-title">Ejercicio 2</h5>
                 <p class="card-text">Función que usa condicional múltiple</p>
                 <input type="text" class="form-control mb-3" id="input2" placeholder="...">
-                <a href="#" class="btn btn-primary" onclick="listaVacunacion()">Ejecutar</a>
+                <a href="#" class="btn btn-primary mx-4" onclick="listaVacunacion1()">Agregar</a>
+                <a href="#" class="btn btn-primary" onclick="listaVacunacion2()">Urgencia</a>
                 <div id="container2" class="d-none">
                     <h5>Resultado:</h5>
                     <div id="resultado2" class="alert alert-success fw-bold">
+                        <ol id="listaEspera">
+                            <li>Docente 1</li>
+                            <li>Docente 2</li>
+                            <li>Docente 3</li>
+                            <li>Docente 4</li>
+                        </ol>
                     </div>
                 </div>
             </div>
@@ -48,9 +55,10 @@
         <div class="card" style="width: 18rem;">
             <div class="card-body">
                 <h5 class="card-title">Ejercicio 3</h5>
-                <p class="card-text">Uso de múltiples funciones (flujo completo)</p>
+                <p class="card-text">Módulo de Subsidios: Buscador de Beneficiarios (Ciclos e If)
+                </p>
                 <input type="text" class="form-control mb-3" id="input3" placeholder="...">
-                <a href="#" class="btn btn-primary" onclick="procesarNumero()">Ejecutar</a>
+                <a href="#" class="btn btn-primary" onclick="verificarBeneficio()">Verificar</a>
                 <div id="container3" class="d-none">
                     <h5>Resultado:</h5>
                     <div id="resultado3" class="alert alert-success fw-bold">
